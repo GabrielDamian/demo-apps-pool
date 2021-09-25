@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.App
+{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  background-color: #161b22;
+  padding: 25px;
+  min-width: 950px;
+}
+.input-app-chat
+{
+  height: 100%;
+  width: 50%;
+  border-radius: 10px;
+  background-color: #474e57;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input-app-chat-center
+{
+  height: 70%;
+  width: 70%;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.input-app-chat-center-title
+{
+  height: 10%;
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px 15px;
+  font-size: 1.3em;
+  font-family: 'Poppins', sans-serif;
+}
+
+.input-app-chat-center-input
+{
+  height: 90%;
+  width: 100%;
+}
+
+.input-app-chat-center-input form
+{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.input-app-chat-center-input label 
+{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.3em;
+  border-top: 1px solid white;
+}
+.input-app-chat-center-input span 
+{
+  margin-right: 15px;
+  width: 50%;
+  text-align: center;
+}
+.input-app-chat-center-input input 
+{
+  padding: 10px;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  font-family: 'Poppins', sans-serif;
+  margin-right: 20px;
+}
+.input-app-chat-center-input button 
+{
+  padding: 12px 20px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.7em;
+}
+
+
+
+
+
+
+
+.output-app-chat
+{
+  height: 100%;
+  width: 50%;
+  margin-left: 10px;
+  background-color: #474e57;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.output-app-chat-content
+{
+  height: 70%;
+  width: 70%;
+  border: 1px solid white;
+  border-radius: 10px;
+  font-family: 'Poppins', sans-serif;
+}
+.output-app-chat-content-title
+{
+  height: 10%;
+  border-bottom: 1px solid white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+  padding: 0px 15px;
+}
+.output-app-chat-content-data
+{
+  height: 90%;
+  width: 100%;
+  padding: 5px;
+}
+.mess-itself
+{
+  width: 100%;
+  height: 45px;
+  border-bottom: 1px solid white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px 10px;
+}
+.custom-mess-data
+{
+  font-size: italic;
+  color: white;
+  font-size: 0.9em;
+  margin-left: 15px;
+}
